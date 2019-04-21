@@ -3,13 +3,16 @@
 2. **Time spent: 10 hours**
 
 ## How to run
+Run on terminal
 ```
   go build
   ./url-shortener -h
-  ./url-shortener configure -a dogs -u http://www.dogs.com
+  ./url-shortener configure -a cats -u http://www.cats.com
+  ./url-shortener -l
   ./url-shortener run -p 8080
-  open localhost:8080/dogs
 ```
+Go to [localhost:8080/dogs](localhost:8080/dogs) or [localhost:8080/cats](localhost:8080/cats)
+
 ## Requirements
 The list of redirection should be maintained in a command line tool, what can:
 - [x] Manipulate YAML config file. Where the redirection list peristently stored.
