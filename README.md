@@ -7,7 +7,7 @@
   go build
   ./url-shortener -h
   ./url-shortener configure -a dogs -u http://www.dogs.com
-  `./url-shortener run -p 8080`
+  ./url-shortener run -p 8080
   open localhost:8080/dogs
 ```
 ## Requirements
