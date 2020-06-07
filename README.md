@@ -1,7 +1,4 @@
 # URL Shortener
-1. **Submitted by: KHOA BUI**
-2. **Time spent: 10 hours**
-
 ## How to run
 Run on terminal
 ```
